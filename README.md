@@ -1,7 +1,43 @@
 
 # lettermaker
 
-Makes letters with pdflatex and python3.
+Write a letter with a minimal TOML file (save as `your_letter.toml`).
+
+```toml
+
+[meta]
+template = 'standard'
+
+[fields]
+date = '2023-01-01'
+address = '''
+Toast Corporation\\
+The Ol'Stonepath 42\\
+23123 New York
+'''
+subject = 'Application for a Fish License'
+opening = 'Dear Sir/Madam at the Ministry of Housinge,'
+content = '''
+I wrote to explain
+I'm your biggest fan
+I just wanted to ask ...
+'''
+closing = 'Best Wishes,'
+name = 'Marie Curie'
+signaturepath = '../example/signature.png'
+```
+
+Run the command
+
+`lettermaker -t your_letter.toml -o my_letter.pdf`
+
+and receive a formatted letter as PDF (as `my_letter.pdf`).
+
+![Example output](./example/output_example.png)
+
+## dependencies
+
+Uses `pdflatex` and `python3`.
 
 ## to-dos.
 
