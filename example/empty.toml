@@ -1,0 +1,13 @@
+
+[meta]
+template = 'standard'
+
+[fields]
+date = ''
+address = ''
+subject = ''
+opening = ''
+content = ''
+closing = ''
+name = ''
+signaturepath = ''

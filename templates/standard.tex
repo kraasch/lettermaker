@@ -1,0 +1,32 @@
+
+\documentclass[
+    11pt,
+    a4paper,
+    letter,
+    parskip=yes,
+    ]{scrlttr2}
+\usepackage{graphicx}
+
+\setkomavar{subject}{\VAR{SUBJECT}}
+\setkomavar{yourref}{}
+\setkomavar{yourmail}{}
+\setkomavar{myref}{}
+\setkomavar{customer}{}
+\setkomavar{invoice}{}
+\setkomavar{specialmail}{}
+\date{\VAR{DATE}}
+
+\begin{document}
+\begin{letter}{\VAR{ADDRESS}}
+  \opening{\VAR{OPENING}}
+  \VAR{CONTENT}
+  \closing{\VAR{CLOSING}}
+  \vspace{-60px}
+  \includegraphics{\VAR{SIGNATUREPATH}}
+  \\
+  \vspace{-15px}
+  \\
+  \VAR{NAME}
+  \\
+\end{letter}
+\end{document}

@@ -1,0 +1,23 @@
+
+[meta]
+template = 'standard'
+
+[fields]
+date = '2023-01-01'
+address = '''
+Toast Corporation\\
+The Ol'Stonepath 42\\
+23123 New York
+'''
+subject = 'Application for a Fish License'
+opening = 'Dear Sir/Madam at the Ministry of Housinge,'
+content = '''
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vestibulum mollis neque, non mattis turpis sagittis et. Pellentesque finibus risus eu velit pharetra blandit. 
+
+Curabitur hendrerit dui vel orci fringilla, eget iaculis quam porttitor. Phasellus feugiat dapibus sodales. Suspendisse molestie dui risus, eu elementum nulla placerat non. Nam facilisis congue risus, at dapibus nunc. Maecenas at tortor congue, viverra turpis id, egestas augue. Maecenas sit amet orci vel lectus cursus ultrices sit amet eget eros.
+
+Praesent in eleifend velit. Nam rhoncus fermentum libero sed cursus. Nunc erat arcu, tempor ac massa eu, tempus sollicitudin mauris. Integer laoreet quis orci vitae auctor. Integer eu ante porta, pulvinar risus sit amet, ornare lacus. Donec volutpat bibendum eleifend. Maecenas fermentum faucibus est, quis tincidunt est porttitor non. 
+'''
+closing = 'Best Wishes,'
+name = 'Marie Curie'
+signaturepath = '../example/signature.png'

@@ -1,0 +1,14 @@
+
+[fields]
+address = '''
+.\\
+
+'''
+subject = '.'
+opening = 'Dear Sir/Madam,'
+content = '''
+Please see the attachments for futher information.
+'''
+closing = 'Kind regards,'
+name = '.'
+signaturepath = '~/.signature.png'
