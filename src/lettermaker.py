@@ -8,16 +8,13 @@ import toml
 from datetime import datetime
 import shutil
 
-# variables.
-output_path='./output/'
-
-# create output folder.
-if not os.path.exists(output_path):
-    os.makedirs(output_path)
-
-# returns today's date as string.
-def today():
-    return datetime.today().strftime('%Y-%m-%d')
+# parse arguments.
+parser = argparse.ArgumentParser(prog='lettermaker')
+parser.add_argument('-t', '--toml',     type=str, help='Compile a letter from TOML to PDF.')
+parser.add_argument('-d', '--defaults', type=str, help='Path to default files.')
+parser.add_argument('-o', '--output',   type=str, help='Output file name.')
+parser.add_argument('-T', '--template', type=str, help='Create TOML template.')
+args = parser.parse_args()
 
 # get path to project.
 bin_path = pathlib.Path(__file__)
@@ -27,12 +24,19 @@ while os.path.islink(bin_path):
     bin_path=pathlib.Path(bin_path) # convert str to Path.
 project_root=str(bin_path.parent.parent)
 
-# parse arguments.
-parser = argparse.ArgumentParser(prog='lettermaker')
-parser.add_argument('-t', '--toml',     type=str, help='Compile a letter from TOML to PDF.')
-parser.add_argument('-d', '--defaults', type=str, help='Path to default files.')
-parser.add_argument('-o', '--output',   type=str, help='Output file name.')
-args = parser.parse_args()
+# create toml templte.
+if args.template:
+    shutil.copyfile(project_root + '/example/empty.toml', args.template + '.toml')
+    exit()
+
+# create output folder.
+output_path='./output/'
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
+
+# returns today's date as string.
+def today():
+    return datetime.today().strftime('%Y-%m-%d')
 
 # read in toml file as dictionary.
 def toml_to_dict(file_name):
