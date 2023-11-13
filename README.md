@@ -51,6 +51,7 @@ Uses `pdflatex` and `python3`.
    - [ ] provide prefill for chinese_formal
    - [ ] provide prefill for chinese_informal
  - [ ] look for prefills at ~/.config/lettermaker/prefills/ then at $PROJECT_ROOT/prefills
+ - [ ] for empty signature do not include image.
  - [ ] look for defaults at ~/.config/lettermaker/defaults/ then at $PROJECT_ROOT/defaults
  - [ ] implement list function (with option `-l, --list`) to show all prefill and default options.
  - [ ] implement setup function (with option `-s, --setup`) for ~/.config/lettermaker/prefills/
@@ -58,6 +59,7 @@ Uses `pdflatex` and `python3`.
  - [ ] allow TOML arrays and create a PDF output letter for each permutation.
  - [ ] have flag to toggle visibility of page numbers (define in meta section of toml file).
  - [ ] have flag to toggle visibility of folding guide lines at left margin (define in meta section of toml file).
+ - [ ] provide a functionality that does not insert a signature, but instead draws a box where can be signed by hand.
 
 ### done 
 
