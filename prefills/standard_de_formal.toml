@@ -1,0 +1,16 @@
+
+[fields]
+address = '''
+<name/organisation>\\
+<straße>, <hausnummer>\\
+<postleitzahl> <stadt>\\
+<LAND>
+'''
+subject = ''
+opening = 'Sehr geehrte Damen und Herren,'
+content = '''
+weitere Informationen finden Sie im Anhang.
+'''
+closing = 'Mit freundlichen Grüßen,'
+name = ''
+signaturepath = '~/.signature.png'

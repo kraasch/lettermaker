@@ -1,0 +1,16 @@
+
+[fields]
+address = '''
+<name/organisation>\\
+<straße>, <hausnummer>\\
+<postleitzahl> <stadt>\\
+<LAND>
+'''
+subject = ''
+opening = 'Liebe Kollegen,'
+content = '''
+weitere Informationen findet Ihr im Anhang.
+'''
+closing = 'Auf bald in alter Frische,'
+name = ''
+signaturepath = '~/.signature.png'
