@@ -1,7 +1,7 @@
 
 [fields]
-fromtiny = '.'
-from = '.'
+fromtiny = ' '
+from = ' '
 address = '''
 .\\
 
