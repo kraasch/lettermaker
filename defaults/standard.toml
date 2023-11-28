@@ -1,12 +1,7 @@
 
 [fields]
 fromtiny = '.'
-from = '''
-...
-...
-...
-...
-'''
+from = '.'
 address = '''
 .\\
 
