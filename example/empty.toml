@@ -4,6 +4,7 @@ template = 'standard'
 
 [fields]
 date = ''
+location = ''
 address = ''
 subject = ''
 opening = ''

@@ -4,6 +4,7 @@ template = 'standard'
 
 [fields]
 date = '2023-01-01'
+location = 'Paris'
 address = '''
 Toast Corporation\\
 The Ol'Stonepath 42\\

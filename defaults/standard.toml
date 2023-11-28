@@ -4,6 +4,7 @@ address = '''
 .\\
 
 '''
+location = '. '
 subject = '.'
 opening = 'Dear Sir/Madam,'
 content = '''
