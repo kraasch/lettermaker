@@ -4,6 +4,7 @@ template = 'standard'
 
 [fields]
 date = ''
+from = ''
 fromtiny = ''
 location = ''
 address = ''
