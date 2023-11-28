@@ -65,3 +65,9 @@ Uses `pdflatex` and `python3`.
 
  - [X] allow to store letter data in TOML file.
  - [X] ie. use this python package: https://docs.python.org/3/library/tomllib.html
+
+## good reads
+
+ - https://www.uweziegenhagen.de/wp-content/uploads/2019/04/Ziegenhagen_scrlttr2Vorlagen.pdf
+ - https://www.dickimaw-books.com/latex/admin/html/scrlttr2.shtml
+

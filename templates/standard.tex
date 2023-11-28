@@ -14,10 +14,14 @@
 \setkomavar{customer}{}
 \setkomavar{invoice}{}
 \setkomavar{specialmail}{}
+\setkomavar{fromaddress}{\VAR{FROMTINY}}
+\setkomavar{location}{\VAR{FROM}}
+\setkomavar{firsthead}{}
+
 \date{\VAR{LOCATION}, \VAR{DATE}}
 
 \begin{document}
-\begin{letter}{{\scriptsize \VAR{FROMTINY}}\\~\\\VAR{ADDRESS}}
+\begin{letter}{\VAR{ADDRESS}}
   \opening{\VAR{OPENING}}
   \VAR{CONTENT}
   \closing{\VAR{CLOSING}}

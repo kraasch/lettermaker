@@ -7,9 +7,10 @@ date = '2023-01-01'
 location = 'Paris'
 fromtiny = 'Marie C., Somefrench Ave 43, Paris'
 from = '''
-Marie Curie
-Somefrench Ave 43
-Paris
+Marie Curie\\
+Somefrench Ave 43\\
+Paris\\
+FRANCE
 '''
 address = '''
 Toast Corporation\\
