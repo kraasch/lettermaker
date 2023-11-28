@@ -10,10 +10,14 @@ create:
 	lettermaker -t ./example/marie.toml -o marie
 	lettermaker -t ./example/empty.toml -o empty
 	lettermaker -t ./example/marie.toml
+	rm -rf ./TEMP/
+	mkdir -p ./TEMP/
+	mv -f ./empty.pdf ./TEMP/
+	mv -f ./marie.pdf ./TEMP/
 
 view:
-	zathura ./marie.pdf & disown
-	zathura ./empty.pdf & disown
+	zathura ./TEMP/marie.pdf & disown
+	zathura ./TEMP/empty.pdf & disown
 	zathura ./output/letter.pdf & disown
 
 clean:
