@@ -60,6 +60,7 @@ Uses `pdflatex` and `python3`.
  - [ ] have flag to toggle visibility of page numbers (define in meta section of toml file).
  - [ ] have flag to toggle visibility of folding guide lines at left margin (define in meta section of toml file).
  - [ ] provide a functionality that does not insert a signature, but instead draws a box where can be signed by hand.
+ - [ ] make lettermaker conform to din5008.
 
 ### done 
 
