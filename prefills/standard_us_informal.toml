@@ -13,4 +13,4 @@ Please see the attachments for futher information.
 '''
 closing = 'Take care!'
 name = ''
-signaturepath = '~/.signature.png'
+signaturepath = '~/.config/LINKS/signature.png'

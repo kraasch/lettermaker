@@ -13,4 +13,4 @@ weitere Informationen findet Ihr im Anhang.
 '''
 closing = 'Auf bald in alter Frische,'
 name = ''
-signaturepath = '~/.signature.png'
+signaturepath = '~/.config/LINKS/signature.png'

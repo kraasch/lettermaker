@@ -13,4 +13,4 @@ weitere Informationen finden Sie im Anhang.
 '''
 closing = 'Mit freundlichen Grüßen,'
 name = ''
-signaturepath = '~/.signature.png'
+signaturepath = '~/.config/LINKS/signature.png'
